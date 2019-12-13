@@ -1,0 +1,32 @@
+﻿@model WebASP_Ajax.Models.tb_m_supplier
+
+
+<h2>Save</h2>
+
+@using (Html.BeginForm("save", "suppliers", FormMethod.Post, new { id = "popupForm" }))
+{
+    if (Model != null && Model.Id > 0)
+    {
+        @Html.HiddenFor(a => a.Id)
+    }
+
+    <div class="form-group">
+        <label>First Name</label>
+        @Html.TextBoxFor(a => a.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.Name)
+    </div>
+    <div class="form-group">
+        <label>Last Name</label>
+        @Html.TextBoxFor(a => a.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.Email)
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        @Html.TextBoxFor(a => a.CreateDate, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.CreateDate)
+    </div>
+
+    <div>
+        <input type="submit" value="Save" />
+    </div>
+}

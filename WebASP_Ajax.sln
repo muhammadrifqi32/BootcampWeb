@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebASP_Ajax", "WebASP_Ajax\WebASP_Ajax.csproj", "{6A7EDE4A-2DDC-42E5-8980-63FE1F677893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{2B95C344-06BC-4F2A-A69F-4512767E2A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{F5C375C5-B898-4E55-B489-E9857C4D4EE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7EDE4A-2DDC-42E5-8980-63FE1F677893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7EDE4A-2DDC-42E5-8980-63FE1F677893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7EDE4A-2DDC-42E5-8980-63FE1F677893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7EDE4A-2DDC-42E5-8980-63FE1F677893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B95C344-06BC-4F2A-A69F-4512767E2A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B95C344-06BC-4F2A-A69F-4512767E2A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B95C344-06BC-4F2A-A69F-4512767E2A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B95C344-06BC-4F2A-A69F-4512767E2A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C375C5-B898-4E55-B489-E9857C4D4EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C375C5-B898-4E55-B489-E9857C4D4EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C375C5-B898-4E55-B489-E9857C4D4EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C375C5-B898-4E55-B489-E9857C4D4EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
